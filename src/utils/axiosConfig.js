@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Set the base URL to point directly to the server
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = 'https://swapcredserver-production.up.railway.app/';
 
 // Add response interceptor to handle common errors
 axios.interceptors.response.use(
